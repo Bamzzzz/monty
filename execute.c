@@ -23,9 +23,9 @@ instruction_t opst[] = {
 		{"queue", f_queue},
 		{"stack", f_stack},
 		{"add", f_add},
-                {"nop", f_nop},
-                {"sub", f_sub},
-                {"div", f_div},
+		{"nop", f_nop},
+		{"sub", f_sub},
+		{"div", f_div},
 		{NULL, NULL}
 	};
 unsigned int i = 0;
