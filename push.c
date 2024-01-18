@@ -1,5 +1,4 @@
 #include "monty.h"
-
 /**
  * f_push - push stack
  * @head: stack
@@ -9,7 +8,6 @@
 void f_push(stack_t **head, unsigned int counter)
 {
 int n, j = 0, flag = 0;
-
 if (bus.arg)
 {
 if (bus.arg[0] == '-')
